@@ -1,0 +1,142 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+html {line-height: 1.15;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+body {margin: 0;}
+article,caside, footer, header, nav, section {display: block;}
+h1 {font-size: 2em; margin: 0.67em 0;}
+figcaption, figure, main {display: block;}
+figure {margin: 1em 40px;}
+hr {box-sizing: content-box;height: 0;overflow: visible;}
+pre {font-family: monospace, monospace;font-size: 1em;}
+a {background-color: transparent;-webkit-text-decoration-skip: objects;}
+abbr[title] {border-bottom: none;text-decoration: underline;text-decoration: underline dotted;}
+b, strong {font-weight: inherit;}
+b, strong {font-weight: bolder;}
+code, kbd, samp {font-family: monospace, monospace;font-size: 1em;}
+dfn {font-style: italic;}
+mark {background-color: #ff0;color: #000;}
+small {font-size: 80%;}
+sub, sup {font-size: 75%;line-height: 0;position: relative;
+  vertical-align: baseline;}
+sub {bottom: -0.25em;}
+sup {top: -0.5em;}
+audio, video {display: inline-block;}
+audio:not([controls]) {display: none;height: 0;}
+img {border-style: none;}
+svg:not(:root) {overflow: hidden;}
+button, input, optgroup, select, textarea {font-family: sans-serif;font-size: 100%;line-height: 1.15;margin: 0;}
+button, input {overflow: visible;}
+button, select {text-transform: none;}
+button, html [type="button"], [type="reset"], [type="submit"] {-webkit-appearance: button;}
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {border-style: none;padding: 0;}
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {outline: 1px dotted ButtonText;}
+fieldset {padding: 0.35em 0.75em 0.625em;}
+legend {box-sizing: border-box;color: inherit;display: table;max-width: 100%;padding: 0;white-space: normal;}
+progress {display: inline-block;vertical-align: baseline;}
+textarea {overflow: auto;}
+[type="checkbox"], [type="radio"] {box-sizing: border-box;padding: 0;}
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {height: auto;}
+[type="search"] {-webkit-appearance: textfield;outline-offset: -2px;}
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+::-webkit-file-upload-button {-webkit-appearance: button;font: inherit;}
+details, menu {display: block;}
+summary {display: list-item;}
+canvas {display: inline-block;}
+template {display: none;}
+[hidden] {display: none;}
+
+/* Framework */
+.col-d1{width:8.33333%}
+.col-d2{width:16.66666%}
+.col-d3{width:24.99999%}
+.col-d4{width:33.33333%}
+.col-d402{width:35%}
+.col-d5{width:41.66666%}
+.col-d6{width:49.99999%}
+.col-d7{width:58.33333%}
+.col-d705{width:62.5%}
+.col-d8{width:66.66666%}
+.col-d9{width:74.99999%}
+.col-d10{width:83.33333%}
+.col-d11{width:91.66666%}
+.col-d12{width:99.99999%}
+.mb-d10{margin-bottom:10px;}
+.mb-d15{margin-bottom:15px;}
+.mb-d20{margin-bottom:20px;}
+.pdr-d10{padding-right:10px;}
+.br-circle{border-radius:50%}
+.br-small{border-radius:2px}
+.br-standart, .br-medium{border-radius:4px}
+.br-large{border-radius:8px}
+.br-xlarge{border-radius:16px}
+.br-xxlarge{border-radius:32px}
+.brs-d{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.prog-d1{background-color:lightgrey}
+.prog-d2{background-color:#668cff}
+.prog-d3{font-size:14px;text-align:center;color:white}
+.progv2-d1{width:10%;}
+.progv2-d2{width:20%;}
+.progv2-d3{width:30%;}
+.progv2-d4{width:40%;}
+.progv2-d8{width:80%;}
+.mgt-d50{margin-top:50px;}
+.mgb-d50{margin-bottom:50px;}
+.fc-d{color:#668cff;}
+.bcw-d{background-color:white;}
+/* For Mobile */
+@media only screen and (max-width:2560px) {
+
+}
+@media only screen and (max-width:1024px) {
+	
+}
+@media only screen and (max-width:655px) {
+	[class*="col-"] {width:100%;}
+
+}
+@media only screen and (min-width:655px) {
+
+}
+@media only screen and (max-width:320px) {
+
+}
+/*CSS Fix */
+body {word-wrap:break-word;max-width:2560px;min-width:320px;text-align:justify;}
+.setting-icon {color:#668cff;text-shadow:2px 1px 1px #CCCCCC;}
+kbd {background-color:#668cff;border-radius:3px;padding:5px;color:white;}
+.clearfix {content:"";display:table;clear:both}
+/* CSS Global */
+html, body {font-family: lato, sans-serif;background-color:#f1f1f1;}
+#container {
+	width:100%;
+}
+
+#grid {
+	padding:30px;
+}
+
+#personal {
+	background-color:white;
+	float:left!important;
+}
+
+#personal-info, #my-skills, #my-language {
+	padding:14px 16px;
+}
+
+#work-experience {
+	float:right!important;
+}
+
+#experience, #education {
+	padding:14px 16px;
+}
+
+footer {
+	clear:both;
+	text-align:center;
+	background-color:#668cff;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:white;
+	text-decoration:none;
+}
