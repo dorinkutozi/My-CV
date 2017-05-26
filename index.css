@@ -140,3 +140,12 @@ footer {
 	color:white;
 	text-decoration:none;
 }
+
+footer a {
+	text-decoration:none;
+	color:white;
+}
+
+footer a:hover {
+	color:#cccccc;
+}
